@@ -87,5 +87,12 @@ for (var i=0 ; i <number.length ; i++){
     })
 }
 
+var beep2 = new Audio();
+beep2.src = 'tone1.mp3'
 
+var beep1 = new Audio();
+beep1.src = 'tone2.mp3'
+
+var beep3 = new Audio();
+beep3.src = 'tone3.mp3'
 

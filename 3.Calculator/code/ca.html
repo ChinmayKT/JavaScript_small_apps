@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ca.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="c.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>A Simple Calculator</h1>
+    
+    <div  id="container" >
+        <div id="calculator">
+            <div id="result" >
+                <div id="history" >
+                    <div id="his-val" > </div>
+                    <div id="output" >
+                        <p id="out-val" > </p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="keyboard" >
+                <button onmousedown="beep1.play();"  class="operator" id="clear" >C</button>
+                <button  onmousedown="beep1.play();" class="operator" id="backspace" >CE</button>
+                <button onmousedown="beep3.play();" class="operator" id="%" >%</button>
+                <button onmousedown="beep3.play();" class="operator" id="/" >/</button>
+                <button onmousedown="beep2.play();" class="number" id="7" >7</button>
+                <button onmousedown="beep2.play();" class="number" id="8" >8</button>
+                <button onmousedown="beep2.play();"  class="number" id="9" >9</button>
+                <button onmousedown="beep3.play();" class="operator" id="*" >&times;</button>
+                <button onmousedown="beep2.play();" class="number" id="4" >4</button>
+                <button onmousedown="beep2.play();" class="number" id="5" >5</button>
+                <button onmousedown="beep2.play();" class="number" id="6" >6</button>
+                <button onmousedown="beep3.play();" class="operator" id="-" >-</button>
+                <button onmousedown="beep2.play();" class="number" id="1" >1</button>
+                <button onmousedown="beep2.play();" class="number" id="2" >2</button>
+                <button onmousedown="beep2.play();" class="number" id="3" >3</button>
+                <button onmousedown="beep3.play();" class="operator" id="+" >+</button>
+                <button onmousedown="beep3.play();" class="empty" id="empty" ></button>
+                <button onmousedown="beep2.play();" class="number" id="0" >0</button>
+                <button onmousedown="beep3.play();" class="empty" id="empty" ></button>
+                <button onmousedown="beep3.play();" class="operator" id="=" >=</button>
+
+
+            </div>
+
+        </div>
+        <h4  class="chinmay" >Code By  <a href="https://www.linkedin.com/in/chinmay-kt-aa0692117/"
+            target="_blank" >Chinmay KT</a>   </h4>
+    </div>
+    
+    <script src="cs.js"></script> 
+</body>
+</html>
